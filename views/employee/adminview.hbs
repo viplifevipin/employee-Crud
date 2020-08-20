@@ -1,0 +1,34 @@
+<h3><a class="btn btn-secondary" href="/employee/edit"><i class="fa fa-plus"></i> Create New</a> Employee List</h3>
+<table class="table">
+    {{employees}}
+    <thead>
+    <tr>
+        <th>Email</th>
+        <th>role</th>
+        <th>City</th>
+        <th></th>
+    </tr>
+    </thead>
+
+    <tbody>
+
+
+    {{#each employee}}
+        <tr>
+
+            <td>{{this.username}}</td>
+            <td>{{this.role}}</td>
+            <td>{{this.city}}</td>
+    <td>
+        <a href="/admin/edit/{{this._id}}"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
+        <a href="/list/{{this._id}}" onclick="return confirm('Are you sure to delete this record ?');"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></a>
+    </td>
+
+
+        </tr>
+
+    {{/each}}
+
+
+    </tbody>
+</table>

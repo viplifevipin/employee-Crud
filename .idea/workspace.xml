@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e073c18-03c7-43bb-a7e1-c0732064aa85" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gIqAdGXQkorO6OqX8u2vaY89xx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../video-game-shop" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/user" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.www">
+    <configuration name="employee.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/models/employee.js" working-dir="$PROJECT_DIR$/models">
+      <method v="2" />
+    </configuration>
+    <configuration name="user.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/user.js" working-dir="$PROJECT_DIR$/routes">
+      <method v="2" />
+    </configuration>
+    <configuration name="www" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bin/www" working-dir="$PROJECT_DIR$/bin">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.www" />
+        <item itemvalue="Node.js.employee.js" />
+        <item itemvalue="Node.js.user.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e073c18-03c7-43bb-a7e1-c0732064aa85" name="Default Changelist" comment="" />
+      <created>1597812312017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597812312017</updated>
+      <workItem from="1597812313195" duration="5890000" />
+      <workItem from="1597827834037" duration="4204000" />
+      <workItem from="1597833773252" duration="23059000" />
+      <workItem from="1597859445328" duration="5747000" />
+      <workItem from="1597901837316" duration="20220000" />
+      <workItem from="1597934324447" duration="2863000" />
+      <workItem from="1597938776801" duration="3622000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597906257904">
+      <screen x="61" y="24" width="1305" height="744" />
+    </state>
+    <state x="451" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/61.24.1305.744@61.24.1305.744" timestamp="1597906257904" />
+    <state x="501" y="141" key="FileChooserDialogImpl" timestamp="1597818408052">
+      <screen x="61" y="24" width="1305" height="744" />
+    </state>
+    <state x="501" y="141" key="FileChooserDialogImpl/61.24.1305.744@61.24.1305.744" timestamp="1597818408052" />
+    <state width="1282" height="206" key="GridCell.Tab.0.bottom" timestamp="1597945971439">
+      <screen x="61" y="24" width="1305" height="744" />
+    </state>
+    <state width="1282" height="206" key="GridCell.Tab.0.bottom/61.24.1305.744@61.24.1305.744" timestamp="1597945971439" />
+    <state width="1282" height="206" key="GridCell.Tab.0.center" timestamp="1597945971438">
+      <screen x="61" y="24" width="1305" height="744" />
+    </state>
+    <state width="1282" height="206" key="GridCell.Tab.0.center/61.24.1305.744@61.24.1305.744" timestamp="1597945971438" />
+    <state width="1282" height="206" key="GridCell.Tab.0.left" timestamp="1597945971438">
+      <screen x="61" y="24" width="1305" height="744" />
+    </state>
+    <state width="1282" height="206" key="GridCell.Tab.0.left/61.24.1305.744@61.24.1305.744" timestamp="1597945971438" />
+    <state width="1282" height="206" key="GridCell.Tab.0.right" timestamp="1597945971439">
+      <screen x="61" y="24" width="1305" height="744" />
+    </state>
+    <state width="1282" height="206" key="GridCell.Tab.0.right/61.24.1305.744@61.24.1305.744" timestamp="1597945971439" />
+    <state x="376" y="168" key="run.anything.popup" timestamp="1597903728744">
+      <screen x="61" y="24" width="1305" height="744" />
+    </state>
+    <state x="376" y="168" key="run.anything.popup/61.24.1305.744@61.24.1305.744" timestamp="1597903728744" />
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1597939608444">
+      <screen x="61" y="24" width="1305" height="744" />
+    </state>
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup/61.24.1305.744@61.24.1305.744" timestamp="1597939608444" />
+  </component>
+</project>
