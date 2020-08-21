@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e073c18-03c7-43bb-a7e1-c0732064aa85" name="Default Changelist" comment="" />
+    <list default="true" id="8e073c18-03c7-43bb-a7e1-c0732064aa85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/employee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/employee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/employee/addOrEdit.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/employee/addOrEdit.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/employee/adminview.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/employee/adminview.hbs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gIqAdGXQkorO6OqX8u2vaY89xx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,7 +80,10 @@
       <workItem from="1597859445328" duration="5747000" />
       <workItem from="1597901837316" duration="20220000" />
       <workItem from="1597934324447" duration="2863000" />
-      <workItem from="1597938776801" duration="3622000" />
+      <workItem from="1597938776801" duration="4641000" />
+      <workItem from="1597948836997" duration="2532000" />
+      <workItem from="1597986175141" duration="5549000" />
+      <workItem from="1597993189702" duration="3120000" />
     </task>
     <servers />
   </component>
@@ -76,37 +91,37 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597906257904">
+    <state x="451" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597999939572">
       <screen x="61" y="24" width="1305" height="744" />
     </state>
-    <state x="451" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/61.24.1305.744@61.24.1305.744" timestamp="1597906257904" />
+    <state x="451" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/61.24.1305.744@61.24.1305.744" timestamp="1597999939572" />
     <state x="501" y="141" key="FileChooserDialogImpl" timestamp="1597818408052">
       <screen x="61" y="24" width="1305" height="744" />
     </state>
     <state x="501" y="141" key="FileChooserDialogImpl/61.24.1305.744@61.24.1305.744" timestamp="1597818408052" />
-    <state width="1282" height="206" key="GridCell.Tab.0.bottom" timestamp="1597945971439">
+    <state width="1282" height="44" key="GridCell.Tab.0.bottom" timestamp="1597995399105">
       <screen x="61" y="24" width="1305" height="744" />
     </state>
-    <state width="1282" height="206" key="GridCell.Tab.0.bottom/61.24.1305.744@61.24.1305.744" timestamp="1597945971439" />
-    <state width="1282" height="206" key="GridCell.Tab.0.center" timestamp="1597945971438">
+    <state width="1282" height="44" key="GridCell.Tab.0.bottom/61.24.1305.744@61.24.1305.744" timestamp="1597995399105" />
+    <state width="1282" height="44" key="GridCell.Tab.0.center" timestamp="1597995399104">
       <screen x="61" y="24" width="1305" height="744" />
     </state>
-    <state width="1282" height="206" key="GridCell.Tab.0.center/61.24.1305.744@61.24.1305.744" timestamp="1597945971438" />
-    <state width="1282" height="206" key="GridCell.Tab.0.left" timestamp="1597945971438">
+    <state width="1282" height="44" key="GridCell.Tab.0.center/61.24.1305.744@61.24.1305.744" timestamp="1597995399104" />
+    <state width="1282" height="44" key="GridCell.Tab.0.left" timestamp="1597995399104">
       <screen x="61" y="24" width="1305" height="744" />
     </state>
-    <state width="1282" height="206" key="GridCell.Tab.0.left/61.24.1305.744@61.24.1305.744" timestamp="1597945971438" />
-    <state width="1282" height="206" key="GridCell.Tab.0.right" timestamp="1597945971439">
+    <state width="1282" height="44" key="GridCell.Tab.0.left/61.24.1305.744@61.24.1305.744" timestamp="1597995399104" />
+    <state width="1282" height="44" key="GridCell.Tab.0.right" timestamp="1597995399105">
       <screen x="61" y="24" width="1305" height="744" />
     </state>
-    <state width="1282" height="206" key="GridCell.Tab.0.right/61.24.1305.744@61.24.1305.744" timestamp="1597945971439" />
+    <state width="1282" height="44" key="GridCell.Tab.0.right/61.24.1305.744@61.24.1305.744" timestamp="1597995399105" />
     <state x="376" y="168" key="run.anything.popup" timestamp="1597903728744">
       <screen x="61" y="24" width="1305" height="744" />
     </state>
     <state x="376" y="168" key="run.anything.popup/61.24.1305.744@61.24.1305.744" timestamp="1597903728744" />
-    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1597939608444">
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1597993492442">
       <screen x="61" y="24" width="1305" height="744" />
     </state>
-    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup/61.24.1305.744@61.24.1305.744" timestamp="1597939608444" />
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup/61.24.1305.744@61.24.1305.744" timestamp="1597993492442" />
   </component>
 </project>

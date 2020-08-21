@@ -21,11 +21,13 @@ var Employee=require('../models/employee')
 
 
 
-
+//user sign in get route
 router.get('/signin',(req,res)=>{
     res.render('adduser/signin')
 })
 
+
+//showing the list of users with roles that assigned by the admin
 router.get('/list', async (req,res)=> {
     Employee.find({employees:req.params._id}).sort({ date: -1 })
         .lean()
@@ -35,16 +37,18 @@ router.get('/list', async (req,res)=> {
 
 })
 
+//routes to get the user adding window
 router.get('/edit',(req,res)=>{
     res.render('employee/addOrEdit')
 })
 
+//route to add a new user
 router.post('/edit',(req,res)=>{
     var newEmployee=new Employee({username:req.body.email,role:req.body.role,fullName:req.body.fullName,  city:req.body.city});
     Employee.register(newEmployee,req.body.password,function(err, user){
         if(err){
             console.log(err);
-            return res.render("user/signup", {error: err.message});
+            return res.render("employee/addOrEdit", {error: err.message});
         }
         passport.authenticate("employee")(req, res, function(){
             res.redirect('/employee/list')
@@ -52,6 +56,7 @@ router.post('/edit',(req,res)=>{
     })
 })
 
+//route to sign in as a user with passport local strategy
 router.post('/signin',(req,res)=>{
     const {email} = req.body
     let errorss = []
@@ -70,6 +75,29 @@ router.post('/signin',(req,res)=>{
             res.redirect('/index')
         })
     })(req, res)
+})
+
+// router.get('/edit:id',async (req,res)=> {
+//         Employee.findOneAndUpdate({employees: req.params.id}).sort({date: -1})
+//             .lean()
+//             .then(employee => {
+//                 res.render('employee/addOrEdit', {employee: employee})
+//             })
+//     }
+// )
+
+//route to delete the user only for admins
+
+router.get('/delete:id', (req,res)=>{
+
+    Employee.findOneAndDelete(req.params.id,(err)=>{
+        if (!err){
+            res.redirect('/employee/list')
+        }
+        else {
+            console.log('err',err)
+        }
+    })
 })
 
 

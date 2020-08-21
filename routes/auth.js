@@ -8,22 +8,15 @@ var User=require('../models/user')
 
 
 
+//admin signup view
 
 router.get("/signup", function(req, res){
     res.render("user/signup");
 });
 
-router.get('/logout', (req, res)=>
-{
-    console.log('logout')
-    req.logout()
-    req.flash('success_msg', 'logout successfully')
-    // delete req.session.email;
-    res.redirect('/')
-})
 
 
-//handle sign up logic
+//handle admin sign up logic
 router.post("/signup", function(req, res){
     if(req.body.code==='mycode'){
         console.log('he is admin')
@@ -52,8 +45,11 @@ router.post("/signup", function(req, res){
 console.log(newUser)
 });
 
+//admin sign in view router
+
 router.get('/signin',(req,res)=>{res.render('user/signin')})
 
+//admin signin post router
 router.post('/signin',(req,res,next)=>{
 
     const {email} = req.body
@@ -76,9 +72,6 @@ router.post('/signin',(req,res,next)=>{
 
 
 })
-
-
-
 
 
 module.exports=router;

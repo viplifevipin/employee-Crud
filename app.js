@@ -17,7 +17,6 @@ var session = require("express-session")
 
 var indexRouter = require('./routes/index');
 var authRouter=require('./routes/auth')
-var userRouter=require('./routes/user')
 var employeeRouter=require('./routes/employee')
 var app = express();
 
